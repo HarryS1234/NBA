@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F2BC1B;
+
+  color: #333;
+  /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+
+.home-page {
+
+  position: fixed;
+}
+
+.container {
+  padding: 20px;
+  background-color: #fff;
+  /* White background for main content */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+
+
+
+}
+
+.container2 {
+  padding: 20px;
+
+  width: 80%;
+  background-color: #fff;
+  /* White background for main content */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0px auto;
+
+  position: relative;
+
+  top: -165px;
+
+
+}
+
+.container2 p span {
+
+  display: flex;
+  justify-content: center;
+
+  font-weight: 700;
+
+  font-size: large;
+
+
+}
+
+.container2 p span:hover {
+
+  background-color: #F27B13;
+
+}
+
+.background-image {
+
+  width: 100%;
+  height: auto;
+  /* Maintain aspect ratio */
+  display: block;
+
+  margin-top: 80px;
+  /* Remove any inline spacing */
+  margin-right: 40px;
+  /* Center the image */
+
+
+}
+
+h1,
+h2 {
+  color: #F27B13;
+  /* Orange headers */
+}
+
+button {
+  background-color: #F27B13;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #F2BC1B;
+  /* Lighter Orange on hover */
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid #F27B13;
+  border-radius: 4px;
+}
+
+.navbar-default {
+  background-color: #F27B13;
+  /* Darker Orange for Navbar */
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  /* Add some padding on the sides */
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 100px;
+  margin-right: 10px;
+}
+
+.navbar-toggle {
+  background-color: #F27B13;
+  /* Darker Orange for the toggle button */
+  border: none;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+  /* White bars for the toggle button */
+}
+
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.head h1 {
+
+  margin-right: 80px;
+
+  font-weight: 700;
+
+
+
+
+}
+
+.navbar-collapse .navbar-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+ 
+  justify-content: flex-end;
+
+  align-items: center;
+
+}
+
+.navbar-collapse .navbar-nav>li {
+  list-style: none;
+  margin: 0 10px;
+
+
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #F2BC1B;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #F2BC1B;
+  background-color: transparent;
+}
+
+/* Center the heading */
+.navbar-collapse .navbar-nav .head {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header,
+.about,
+.features,
+.gallery,
+.services {
+  background-color: #F2BC1B;
+  color: #333;
+}
+
+.header h1,
+.about h2,
+.features h2,
+.gallery h2,
+.services h2 {
+  color: #F27B13;
+}
+
+.header a.btn-custom,
+.about a.btn-custom,
+.features a.btn-custom,
+.gallery a.btn-custom,
+.services a.btn-custom {
+  background-color: #F27B13;
+  border: none;
+  color: #fff;
+}
+
+.header a.btn-custom:hover,
+.about a.btn-custom:hover,
+.features a.btn-custom:hover,
+.gallery a.btn-custom:hover,
+.services a.btn-custom:hover {
+  background-color: #F2BC1B;
+}
+
+/* Ensure Navbar isn't too sticky */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+player-headshot {
+  width: 25%;
+  height: auto;
+}
+
+.search-input {
+  width: 20%; 
+  padding: 15px; 
+  font-size: 16px;
+}
+
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.player-headshot {
+  max-width: 240px; /* Adjust the size here */
+ /* Adjust the size here */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
